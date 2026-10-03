@@ -46,15 +46,17 @@
       "required": [
         {
           "type": "resource",
-          "id": "ng.lst.corona"
+          "id": "canopus_manager"
         },
+        {
+          "type": "resource",
+          "id": "ng.lst.corona"
+        }
+      ],
+      "recommend": [
         {
           "type": "resource",
           "id": "canopus_corona"
-        },
-        {
-          "type": "resource",
-          "id": "canopus_manager"
         }
       ]
     }
