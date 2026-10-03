@@ -1,0 +1,62 @@
+{
+  "item": {
+    "id": "material",
+    "restype": "res_pack",
+    "name": "Material 图标包",
+    "description": "一个基于 Corona 的 Material Design 3 风格图标包",
+    "preview": [
+      "media/cover.png",
+      "media/Image_1791025088152_840.png"
+    ],
+    "icon": "media/Group 2.png",
+    "cover": "media/cover.png",
+    "author": [
+      {
+        "name": "zaona",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "使用教程",
+      "url": "https://abox.run/docs/usage/canopus/corona",
+      "icon": "book"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/material-xmb10p.crpack",
+      "versionCode": 1
+    },
+    "xmb11": {
+      "version": "1.0.0",
+      "file_name": "downloads/material-xmb11.crpack",
+      "versionCode": 1
+    },
+    "xmb10nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/material-xmb11.crpack",
+      "versionCode": 1
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "ng.lst.corona"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_corona"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_manager"
+        }
+      ]
+    }
+  }
+}
